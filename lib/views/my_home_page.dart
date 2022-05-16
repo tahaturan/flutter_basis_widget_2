@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_basis_widget_2/views/checkbox_kullanimi.dart';
+import 'package:flutter_basis_widget_2/views/progressbar_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/radiobutton_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/toggle_buttons_kullanimi.dart';
 import 'package:flutter_basis_widget_2/widgets/sayfa_gecis_button.dart';
@@ -31,6 +32,9 @@ class _MyHomePageState extends State<MyHomePage> {
             SayfaGecisButton(
                 butonYazi: "Radio Button Kullanimi",
                 gecisSayfasi: const RadioButtonKullanimi()),
+            SayfaGecisButton(
+                butonYazi: "ProgressBar Kullanimi",
+                gecisSayfasi: const ProgressBarKullanimi())
           ],
         ),
       ),
