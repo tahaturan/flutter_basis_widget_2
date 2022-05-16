@@ -6,5 +6,8 @@
 <img src="assets/images/RadioButtonKullanimi.gif" height="300">
 </div>
 
-#### ProgressBar Kullanimi
+#### ProgressBar - Slider Kullanimi
+<div>
 <img src="assets/images/ProgressBarKullanimi.gif" height="300">
+<img src="assets/images/SliderKullanimi.gif" height="300">
+</div>
