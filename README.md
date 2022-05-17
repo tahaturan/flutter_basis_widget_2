@@ -11,3 +11,7 @@
 <img src="assets/images/ProgressBarKullanimi.gif" height="300">
 <img src="assets/images/SliderKullanimi.gif" height="300">
 </div>
+
+#### Time And Date Picker Kullanimi
+<img src="assets/images/time_and_date_picker.gif" height="300">
+
