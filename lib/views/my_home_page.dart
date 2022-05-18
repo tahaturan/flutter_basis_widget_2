@@ -4,6 +4,7 @@ import 'package:flutter_basis_widget_2/views/dropdown_button_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/progressbar_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/radiobutton_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/slider_kullanimi.dart';
+import 'package:flutter_basis_widget_2/views/snackbar_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/time_and_date_picker.dart';
 import 'package:flutter_basis_widget_2/views/toggle_buttons_kullanimi.dart';
 import 'package:flutter_basis_widget_2/widgets/sayfa_gecis_button.dart';
@@ -47,6 +48,9 @@ class _MyHomePageState extends State<MyHomePage> {
             SayfaGecisButton(
                 butonYazi: "DropDown Button",
                 gecisSayfasi: const DropDownButtonKullanimi()),
+            SayfaGecisButton(
+                butonYazi: "SnackBar Kullanimi",
+                gecisSayfasi: const SnackBarKullanimi()),
           ],
         ),
       ),
