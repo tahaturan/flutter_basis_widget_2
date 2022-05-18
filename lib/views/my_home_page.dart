@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_basis_widget_2/views/alert_dialog_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/checkbox_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/dropdown_button_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/progressbar_kullanimi.dart';
@@ -51,6 +52,9 @@ class _MyHomePageState extends State<MyHomePage> {
             SayfaGecisButton(
                 butonYazi: "SnackBar Kullanimi",
                 gecisSayfasi: const SnackBarKullanimi()),
+            SayfaGecisButton(
+                butonYazi: "Alert Dialog Kullanimi",
+                gecisSayfasi: const AlertDialogKullanimi()),
           ],
         ),
       ),
