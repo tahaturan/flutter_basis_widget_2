@@ -19,8 +19,10 @@
 <img src="assets/images/dropdown_button.gif" height="300">
 
 #### SnackBar - Alert Dialog Kullanimi
+<div>
 <img src="assets/images/snackbar.gif" height="300">
 <img src="assets/images/Alertdialog.gif" height="300">
+</div>
 
 
 
