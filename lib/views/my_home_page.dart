@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_basis_widget_2/views/alert_dialog_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/checkbox_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/dropdown_button_kullanimi.dart';
+import 'package:flutter_basis_widget_2/views/popup_menu_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/progressbar_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/radiobutton_kullanimi.dart';
 import 'package:flutter_basis_widget_2/views/slider_kullanimi.dart';
@@ -26,7 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             SayfaGecisButton(
                 butonYazi: "Toggle Button",
@@ -55,6 +56,9 @@ class _MyHomePageState extends State<MyHomePage> {
             SayfaGecisButton(
                 butonYazi: "Alert Dialog Kullanimi",
                 gecisSayfasi: const AlertDialogKullanimi()),
+            SayfaGecisButton(
+                butonYazi: "PopUp Menu Kullanimi",
+                gecisSayfasi: const PopUpMenuKullanimi()),
           ],
         ),
       ),
