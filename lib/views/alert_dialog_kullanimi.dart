@@ -63,18 +63,14 @@ class _AlertDialogKullanimiState extends State<AlertDialogKullanimi> {
                         title: const Text("Ozellestirilmis Alert"),
                         content: SizedBox(
                           height: 100,
-                          child: Column(
-                            children: [
-                              TextField(
-                                controller: tfKontrol,
-                                decoration: const InputDecoration(
-                                  labelText: "Veri",
-                                  prefixIcon: Icon(Icons.content_copy_sharp),
-                                  suffixText: "Veri Giriniz",
-                                  suffixStyle: TextStyle(color: Colors.red),
-                                ),
-                              ),
-                            ],
+                          child: TextField(
+                            controller: tfKontrol,
+                            decoration: const InputDecoration(
+                              labelText: "Veri",
+                              prefixIcon: Icon(Icons.content_copy_sharp),
+                              suffixText: "Veri Giriniz",
+                              suffixStyle: TextStyle(color: Colors.red),
+                            ),
                           ),
                         ),
                         backgroundColor: Colors.cyan[200],
@@ -86,6 +82,7 @@ class _AlertDialogKullanimiState extends State<AlertDialogKullanimi> {
                         actions: [
                           TextButton(
                             onPressed: () {
+                              tfKontrol.text = "";
                               Navigator.pop(context!);
                             },
                             child: const Text(
@@ -94,9 +91,8 @@ class _AlertDialogKullanimiState extends State<AlertDialogKullanimi> {
                           ),
                           TextButton(
                             onPressed: () {
-                              String gelenVeri = tfKontrol.text;
                               setState(() {
-                                alinanVeri = gelenVeri;
+                                alinanVeri = tfKontrol.text;
                               });
                               tfKontrol.text = "";
                               Navigator.pop(context!);
